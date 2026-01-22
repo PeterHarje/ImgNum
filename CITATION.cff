@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "ImgNum"
+message: "If you use this software, please cite it."
+authors:
+  - family-names: "Härje"
+    given-names: "Peter"
+    name-suffix: "\"Endarker\""
+  - family-names: "Rydberg"
+    given-names: "Algot"
+    name-suffix: "\"AggE\""
+license: "Apache-2.0"
