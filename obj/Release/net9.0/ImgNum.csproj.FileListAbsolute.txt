@@ -1,0 +1,17 @@
+C:\Scripts\allpicencdec\ImgNum\obj\Release\net9.0\ImgNum.csproj.AssemblyReference.cache
+C:\Scripts\allpicencdec\ImgNum\obj\Release\net9.0\ImgNum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Scripts\allpicencdec\ImgNum\obj\Release\net9.0\ImgNum.AssemblyInfoInputs.cache
+C:\Scripts\allpicencdec\ImgNum\obj\Release\net9.0\ImgNum.AssemblyInfo.cs
+C:\Scripts\allpicencdec\ImgNum\obj\Release\net9.0\ImgNum.csproj.CoreCompileInputs.cache
+C:\Scripts\allpicencdec\ImgNum\bin\Release\net9.0\ImgNum.exe
+C:\Scripts\allpicencdec\ImgNum\bin\Release\net9.0\ImgNum.deps.json
+C:\Scripts\allpicencdec\ImgNum\bin\Release\net9.0\ImgNum.runtimeconfig.json
+C:\Scripts\allpicencdec\ImgNum\bin\Release\net9.0\ImgNum.dll
+C:\Scripts\allpicencdec\ImgNum\bin\Release\net9.0\ImgNum.pdb
+C:\Scripts\allpicencdec\ImgNum\bin\Release\net9.0\SixLabors.ImageSharp.dll
+C:\Scripts\allpicencdec\ImgNum\obj\Release\net9.0\ImgNum.csproj.Up2Date
+C:\Scripts\allpicencdec\ImgNum\obj\Release\net9.0\ImgNum.dll
+C:\Scripts\allpicencdec\ImgNum\obj\Release\net9.0\refint\ImgNum.dll
+C:\Scripts\allpicencdec\ImgNum\obj\Release\net9.0\ImgNum.pdb
+C:\Scripts\allpicencdec\ImgNum\obj\Release\net9.0\ImgNum.genruntimeconfig.cache
+C:\Scripts\allpicencdec\ImgNum\obj\Release\net9.0\ref\ImgNum.dll
