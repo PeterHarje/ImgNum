@@ -2,6 +2,8 @@
 > **Attribution:** Created by **Peter Härje (“Endarker”)** (Idea) and **Algot Rydberg (“AggE”)** (Programmer).  
 > This project ships with `NOTICE` for permanent credit—keep it with redistributions (Apache-2.0).  
 > *Frankenstein Junkpile Transmission: memory anchored as number.*
+> **Tagline:** *ImgNum: a Junkpile fragment for encoding life-frames. Svelatina isn’t a language… yet.*
+
 
 ## Languages
 - [Svenska](#readme-svenska)
@@ -11,6 +13,7 @@
 - [Español](#readme-español)
 - [中文（简体中文—普通话）](#readme-中文简体中文普通话)
 - [Latine](#readme-latine--neo-latinitas)
+- [Sveottal] (#readme-Sveottal)
 
 
 **ImgNum** mappar en bild till *ett enda heltal* (lagrat effektivt) och kan sedan återskapa bilden **exakt** från samma tal.  
@@ -431,3 +434,44 @@ dotnet publish -c Release -r win-x64 /p:PublishSingleFile=true
 Forma .imgnum (breviarium)
 
 Caput continet TOTAL_BYTES (servat zera praevia) et payload minimalem integeris big-endian.
+
+#readme-Sveottal
+
+> **Regula Svelatina:** Konsonanta ex Svenska; vokala ex Latina.  
+> (Nula Å/Ä/Ö. Vokala: a e i o u y, et si vis: ā ē ī ō ū ȳ.)
+
+## Brevis Deskriptio
+**ImgNum** mappār imāgo til yn singular nymērūs, et restārār imāgo ex eodem nymērūs exakte.  
+Iste est bijektiōn inter RGB8 pixēla-stream et yn magnus bas-256 nymērūs (big-endian), servāt in `*.imgnum`.
+
+## Kredita
+- **Programmer:** Algot Rydberg “AggE”
+- **Idea:** Peter Harje “Endarker”
+
+## Piksel-Ordo
+Ordo: top-left → bottom-right, row-major: `y=0..H-1`, `x=0..W-1`.  
+Init: `(0,0)`; fin: `(W-1, H-1)`.
+
+## ShortId (XVI hex)
+`shortId` = prima XVI hex ex SHA-256 (vestigium 64-bit).  
+Usa til fil-nomena, metadata, et “prova-origo”.
+
+## Kommando-Lex
+- `encode` : imāgo → `.imgnum`
+- `decode` : `.imgnum` → imāgo
+- `hash` : skrivar shortId + SHA-256
+- `info` : metada + magnitudo + hash/ID
+- `verify` : verifīār `.imgnum` vs imāgo (byte-exakt RGB)
+- `seal` : skapar `.seal` (legibila stamp)
+- `checkseal` : kontrollār `.imgnum` vs `.seal`
+- `batchseal` : sigillār omnia `*.imgnum` in folder + `imgnum_index.csv`
+- `decimal` : skrivar nymērūs in decimal-text (potest esse enormis)
+
+## Exempla
+```bash
+dotnet run -c Release -- encode input.png output.imgnum
+dotnet run -c Release -- decode output.imgnum restored.png
+dotnet run -c Release -- verify output.imgnum input.png
+dotnet run -c Release -- seal output.imgnum output.seal
+dotnet run -c Release -- checkseal output.imgnum output.seal
+dotnet run -c Release -- batchseal . --recursive
