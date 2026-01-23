@@ -13,7 +13,7 @@
 - [Español](#readme-español)
 - [中文（简体中文—普通话）](#readme-中文简体中文普通话)
 - [Latine](#readme-latine--neo-latinitas)
-- [Sveottal](#readme-Sveottal)
+- [Sveottal](#readme-sveottal)
 
 
 **ImgNum** mappar en bild till *ett enda heltal* (lagrat effektivt) och kan sedan återskapa bilden **exakt** från samma tal.  
