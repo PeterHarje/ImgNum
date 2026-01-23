@@ -1,4 +1,7 @@
 # ImgNum
+> **Attribution:** Created by **Peter Härje (“Endarker”)** (Idea) and **Algot Rydberg (“AggE”)** (Programmer).  
+> This project ships with `NOTICE` for permanent credit—keep it with redistributions (Apache-2.0).  
+> *Frankenstein Junkpile Transmission: memory anchored as number.*
 
 **ImgNum** mappar en bild till *ett enda heltal* och kan sedan återskapa bilden exakt från samma tal.
 Detta är en bijektion mellan en bilds pixeldata (RGB8) och ett “bildnummer” representerat som ett stort heltal i bas 256.
