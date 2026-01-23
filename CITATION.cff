@@ -1,6 +1,7 @@
 cff-version: 1.2.0
 title: "ImgNum"
 message: "If you use this software, please cite it."
+type: software
 authors:
   - family-names: "Härje"
     given-names: "Peter"
@@ -9,3 +10,12 @@ authors:
     given-names: "Algot"
     name-suffix: "\"AggE\""
 license: "Apache-2.0"
+keywords:
+  - image
+  - encoding
+  - big-integer
+  - bijection
+  - sha256
+  - provenance
+  - integrity
+  - frankenstein-junkpile
