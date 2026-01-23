@@ -13,7 +13,7 @@
 - [Español](#readme-español)
 - [中文（简体中文—普通话）](#readme-中文简体中文普通话)
 - [Latine](#readme-latine--neo-latinitas)
-- [Sveottal] (#readme-Sveottal)
+- [Sveottal](#readme-Sveottal)
 
 
 **ImgNum** mappar en bild till *ett enda heltal* (lagrat effektivt) och kan sedan återskapa bilden **exakt** från samma tal.  
@@ -435,9 +435,9 @@ Forma .imgnum (breviarium)
 
 Caput continet TOTAL_BYTES (servat zera praevia) et payload minimalem integeris big-endian.
 
-#readme-Sveottal
+#readme-sveottal
 
-> **Regula Svelatina:** Konsonanta ex Svenska; vokala ex Latina.  
+> **Regula Sveottal:** Konsonanta ex Svenska; vokala ex Latina.  
 > (Nula Å/Ä/Ö. Vokala: a e i o u y, et si vis: ā ē ī ō ū ȳ.)
 
 ## Brevis Deskriptio
