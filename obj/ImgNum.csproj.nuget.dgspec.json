@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Scripts\\allpicencdec\\ImgNum\\ImgNum.csproj": {}
+    "c:\\Scripts\\allpicencdec\\ImgNum\\ImgNum.csproj": {}
   },
   "projects": {
-    "C:\\Scripts\\allpicencdec\\ImgNum\\ImgNum.csproj": {
+    "c:\\Scripts\\allpicencdec\\ImgNum\\ImgNum.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Scripts\\allpicencdec\\ImgNum\\ImgNum.csproj",
+        "projectUniqueName": "c:\\Scripts\\allpicencdec\\ImgNum\\ImgNum.csproj",
         "projectName": "ImgNum",
-        "projectPath": "C:\\Scripts\\allpicencdec\\ImgNum\\ImgNum.csproj",
+        "projectPath": "c:\\Scripts\\allpicencdec\\ImgNum\\ImgNum.csproj",
         "packagesPath": "C:\\Users\\peter\\.nuget\\packages\\",
-        "outputPath": "C:\\Scripts\\allpicencdec\\ImgNum\\obj\\",
+        "outputPath": "c:\\Scripts\\allpicencdec\\ImgNum\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,12 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.12, )",
+              "autoReferenced": true
+            },
             "SixLabors.ImageSharp": {
               "target": "Package",
               "version": "[3.1.12, )"
@@ -66,12 +72,31 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[9.0.12, 9.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[9.0.12, 9.0.12]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[9.0.12, 9.0.12]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
         }
       }
     }

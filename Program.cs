@@ -77,7 +77,12 @@ static class ImgNum
             Console.Error.WriteLine("ERROR: " + error);
 
         Console.WriteLine(@"
-IMGNUM // FRANKENSTEIN JUNKPILE TRANSMISSION
+IMGNUM // FRANKENSTEIN JUNKPILE TRANSMISSION (Programmer: Algot Rydberg AggE, Idea: Peter Härje Endarker)
+
+Github: https://github.com/PeterHarje/ImgNum
+Frankenstein Junkpile: https://junkpile.rocks
+Junkpile Merch: https://merch.junkpile.rocks
+
 Artifact Class: Memory Anchor
 Protocol: Image → Integer → Image
 
