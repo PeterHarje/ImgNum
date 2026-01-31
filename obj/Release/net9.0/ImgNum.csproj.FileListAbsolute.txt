@@ -15,3 +15,4 @@ C:\Scripts\allpicencdec\ImgNum\obj\Release\net9.0\refint\ImgNum.dll
 C:\Scripts\allpicencdec\ImgNum\obj\Release\net9.0\ImgNum.pdb
 C:\Scripts\allpicencdec\ImgNum\obj\Release\net9.0\ImgNum.genruntimeconfig.cache
 C:\Scripts\allpicencdec\ImgNum\obj\Release\net9.0\ref\ImgNum.dll
+c:\Scripts\allpicencdec\ImgNum\obj\Release\net9.0\ImgNum.sourcelink.json
